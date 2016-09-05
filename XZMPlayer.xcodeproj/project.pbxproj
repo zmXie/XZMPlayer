@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A444D2021C27A59200430612 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = A444D2011C27A59200430612 /* UIViewExt.m */; };
+		A444D2051C27A6B000430612 /* UISlider+UISlider_touch.m in Sources */ = {isa = PBXBuildFile; fileRef = A444D2041C27A6B000430612 /* UISlider+UISlider_touch.m */; };
 		A488EB541C23DCFC00D4686C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A488EB531C23DCFC00D4686C /* main.m */; };
 		A488EB571C23DCFC00D4686C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A488EB561C23DCFC00D4686C /* AppDelegate.m */; };
 		A488EB5A1C23DCFC00D4686C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A488EB591C23DCFC00D4686C /* ViewController.m */; };
 		A488EB5D1C23DCFC00D4686C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A488EB5B1C23DCFC00D4686C /* Main.storyboard */; };
 		A488EB5F1C23DCFC00D4686C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A488EB5E1C23DCFC00D4686C /* Assets.xcassets */; };
 		A488EB621C23DCFC00D4686C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A488EB601C23DCFC00D4686C /* LaunchScreen.storyboard */; };
+		A488EB6B1C23DF1900D4686C /* XZMPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A488EB6A1C23DF1900D4686C /* XZMPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A444D2001C27A59200430612 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		A444D2011C27A59200430612 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		A444D2031C27A6B000430612 /* UISlider+UISlider_touch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+UISlider_touch.h"; sourceTree = "<group>"; };
+		A444D2041C27A6B000430612 /* UISlider+UISlider_touch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+UISlider_touch.m"; sourceTree = "<group>"; };
 		A488EB4F1C23DCFC00D4686C /* XZMPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZMPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A488EB531C23DCFC00D4686C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A488EB551C23DCFC00D4686C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +33,8 @@
 		A488EB5E1C23DCFC00D4686C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A488EB611C23DCFC00D4686C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A488EB631C23DCFC00D4686C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A488EB691C23DF1900D4686C /* XZMPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMPlayerView.h; sourceTree = "<group>"; };
+		A488EB6A1C23DF1900D4686C /* XZMPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +67,16 @@
 		A488EB511C23DCFC00D4686C /* XZMPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				A444D2031C27A6B000430612 /* UISlider+UISlider_touch.h */,
+				A444D2041C27A6B000430612 /* UISlider+UISlider_touch.m */,
+				A444D2001C27A59200430612 /* UIViewExt.h */,
+				A444D2011C27A59200430612 /* UIViewExt.m */,
 				A488EB551C23DCFC00D4686C /* AppDelegate.h */,
 				A488EB561C23DCFC00D4686C /* AppDelegate.m */,
 				A488EB581C23DCFC00D4686C /* ViewController.h */,
 				A488EB591C23DCFC00D4686C /* ViewController.m */,
+				A488EB691C23DF1900D4686C /* XZMPlayerView.h */,
+				A488EB6A1C23DF1900D4686C /* XZMPlayerView.m */,
 				A488EB5B1C23DCFC00D4686C /* Main.storyboard */,
 				A488EB5E1C23DCFC00D4686C /* Assets.xcassets */,
 				A488EB601C23DCFC00D4686C /* LaunchScreen.storyboard */,
@@ -150,6 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A488EB5A1C23DCFC00D4686C /* ViewController.m in Sources */,
+				A488EB6B1C23DF1900D4686C /* XZMPlayerView.m in Sources */,
+				A444D2021C27A59200430612 /* UIViewExt.m in Sources */,
+				A444D2051C27A6B000430612 /* UISlider+UISlider_touch.m in Sources */,
 				A488EB571C23DCFC00D4686C /* AppDelegate.m in Sources */,
 				A488EB541C23DCFC00D4686C /* main.m in Sources */,
 			);
@@ -263,10 +281,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: XinYu Shen (C87S8827QR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: XinYu Shen (C87S8827QR)";
 				INFOPLIST_FILE = XZMPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ypwl.XZMPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ypwl.XZMPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +296,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: XinYu Shen (C87S8827QR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: XinYu Shen (C87S8827QR)";
 				INFOPLIST_FILE = XZMPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ypwl.XZMPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ypwl.XZMPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +326,7 @@
 				A488EB681C23DCFC00D4686C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
